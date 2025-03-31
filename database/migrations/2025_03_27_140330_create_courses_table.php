@@ -20,7 +20,7 @@ return new class extends Migration
             $table->foreign('area_id')->references('id')->on('areas');
 
             $table->unsignedBigInteger('training_center_id'); 
-            $table->foreign('training_center_id')->references('id')->on('training_centers'); // Corregido
+            $table->foreign('training_center_id')->references('id')->on('training_centers'); 
             $table->timestamps();
         });
     }
