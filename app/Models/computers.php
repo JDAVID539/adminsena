@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class computers extends Model
 {
-    public function aprenddices()
+    public function aprendices()
     {
-        return $this->hasOne('app\Models\aprenddices');
+        return $this->hasOne('app\Models\Aprendices');
     }
 }

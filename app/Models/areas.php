@@ -10,8 +10,8 @@ class areas extends Model
     {
         return $this->hasMany('app\Models\teachers');
     }
-    public function cources()
+    public function courses()
     {
-        return $this->hasMany('app\Models\cources');
+        return $this->hasMany('app\Models\courses');
     }
 }

@@ -8,7 +8,7 @@ class training_centers extends Model
 {
     public function courses()
     {
-        return $this->hasMany('app\Models\courses');
+        return $this->hasMany('App\Models\courses');
     }
     
     public function teachers()
